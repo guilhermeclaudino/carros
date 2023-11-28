@@ -76,3 +76,27 @@ section{
 .luxuosos a {
     color: var(--dark-cyan);
 }
+
+@media(min-width: 920px) {
+    main {
+        display: flex;
+        max-width: 57.5rem;
+        align-items: center;
+    }
+
+    p {
+        margin-bottom: 5.25rem;
+    }
+
+    a:hover {
+      background: transparent;
+      color: var(--gray);  
+    }
+    .sedans {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .luxuosos {
+        border-radius: 0 8px 8px 0;
+    }
+}
